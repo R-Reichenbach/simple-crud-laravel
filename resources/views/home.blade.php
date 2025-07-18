@@ -9,7 +9,16 @@
 </head>
 
 <body>
-    <h1>testing...</h1>
+    <div style="border: 3px solid black;">
+        <h2>Register</h2>
+        <form action="/register" method="POST">
+            @csrf
+            <input type="text" name="name" id="name" placeholder="name">
+            <input type="email" name="email" id="email" placeholder="email">
+            <input type="password" name="password" id="password" placeholder="password">
+            <button>Register</button>
+        </form>
+    </div>
 </body>
 
 </html>
