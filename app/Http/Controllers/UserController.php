@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
  public function register(){
-        return 'Hello from our controller';
+        return 'Hello from other function';
  }
 }
